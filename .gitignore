@@ -1,10 +1,26 @@
-/out/
-/resources/public/js/**
-/target/
-\#*\#
-.\#*
-.settings
-.idea
-*.iml
+# modules
 node_modules/
-dist/
+
+# build folders
+packages/*/build
+
+# build metadata
+build-meta.json
+
+# dist folders
+pages/*/dist
+dist
+
+# public folders (js|wasm)
+pages/*/public/**/*.js
+pages/*/public/**/*.js.map
+pages/*/public/**/*.wasm
+
+# turbo files
+.turbo
+
+# mac
+.DS_Store
+
+# IntelliJ Idea
+.idea

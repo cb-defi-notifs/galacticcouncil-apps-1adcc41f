@@ -1,0 +1,65 @@
+{
+  "header.form": "Trade assets",
+  "header.settings": "Trade settings",
+  "header.chart": "Trade chart",
+  "header.select": "Select asset",
+  "header.orders": "Your orders",
+  "header.assetInfo": "{{name}} Asset data",
+
+  "form.cta.connect": "Connect wallet",
+  "form.cta.swap": "Swap",
+  "form.cta.twap": "Place trades",
+
+  "form.assetIn.label": "Pay with",
+  "form.assetOut.label": "You get",
+
+  "form.opts": "Trade options",
+
+  "form.swap.title": "Single trade",
+  "form.swap.info": "Instant execution",
+  "form.swap.desc": "Trade instantly using the omnipool.",
+
+  "form.twap.title": "Split trade",
+  "form.twap.info": "Executed in the next {{timeframe}}",
+  "form.twap.desc": "Achieve lower slippage by splitting your trade in smaller chunks.",
+
+  "form.info.priceImpact": "Price impact:",
+  "form.info.transactionFee": "Transaction cost:",
+  "form.info.transactionFeeMin": "Minimum transaction cost:",
+  "form.info.tradeFee": "Trade fee:",
+  "form.info.bestRoute": "Best route",
+  "form.info.minReceived": "Minimum received:",
+  "form.info.maxSent": "Maximum sent:",
+
+  "error.insufficientBalance": "Your trade is bigger than your balance.",
+  "error.insufficientTradingAmount": "Your order size is lower than the minimum for trading.",
+  "error.maxOutRatioExceeded": "Your order size exceeds the trading limit, please split your trade.",
+  "error.maxInRatioExceeded": "Your order size exceeds the trading limit, please split your trade.",
+  "error.tradeNotAllowed": "Trade is not allowed.",
+  "error.invalidPair": "Selected pool pair is not valid.",
+
+  "warn.changeSlippage": "Split trade likely to fail due to slippage - please adjust your slippage settings or reduce trade size.",
+  "warn.useDca": "Your trade may be too large for efficient Split Trade execution - please try our DCA page or increase slippage to ensure successful execution.",
+
+  "settings.section.swap": "Single Trade",
+  "settings.section.twap": "Split Trade",
+  "settings.slippage": "Slippage",
+  "settings.slippageInfo1": "Here you can control the maximum allowed deviation between your desired price and the actual execution price.",
+  "settings.slippageInfo2": "Such deviation can be caused by protocol fees, price impact (trade size vs liquidity), or price changes due to trading activity.",
+  "settings.maxRetries": "Max retries",
+
+  "orders.all": "All",
+  "orders.open": "Open orders",
+  "orders.history": "Order history",
+  "orders.noActivity": "No recent activity",
+
+  "notify.processing": "{{action}} <1>{{amountIn}} {{assetIn}}</1> for <1>{{amountOut}} {{assetOut}}</1> submitted",
+  "notify.success": "You {{action}} <1>{{amountIn}} {{assetIn}}</1> for <1>{{amountOut}} {{assetOut}}</1>",
+  "notify.error": "{{action}} <1>{{amountIn}} {{assetIn}}</1> for <1>{{amountOut}} {{assetOut}}</1> failed",
+
+  "notify.twap": "{{noOfTrades}} trades × {{amountIn}} {{assetIn}} placed during next <1>{{timeframe}}</1> amounting to a total of <1>{{amountInBudget}} {{assetIn}}</1> {{status}}",
+
+  "asset.info.checkData": "Check data",
+  "asset.external.badge.warning": "This asset is registered as an external token. Always conduct your own research before trading.",
+  "asset.external.badge.danger": "The creator of this asset has not revoked their admin rights. This means the supply can be minted, burned or frozen at any point. Proceed at your own risk."
+}
