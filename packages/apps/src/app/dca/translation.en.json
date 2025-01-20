@@ -1,0 +1,46 @@
+{
+  "header.form": "Trade DCA",
+  "header.settings": "DCA settings",
+  "header.chart": "Trade chart",
+  "header.select": "Select asset",
+  "header.orders": "Your orders",
+
+  "form.cta.connect": "Connect wallet",
+  "form.cta.schedule": "Schedule DCA trades",
+
+  "form.assetIn.label": "For total budget",
+  "form.assetOut.label": "Get",
+
+  "form.advanced": "Advanced settings",
+  "form.advanced.desc": "Customize your trades to an even greater extent.",
+  "form.advanced.interval": "Custom interval",
+  "form.advanced.intervalBlocks": "{{value}} {{unit}} = ~{{blocks}} blocks",
+
+  "form.summary": "Summary",
+  "form.summary.message": "Swap <1>{{amountIn}} {{assetIn}}</1> for <1>{{assetOut}}</1> every <1>~{{frequency}}</1> with a total budget of <1>{{amountInBudget}} {{assetIn}}</1> over the period of <1>~{{time}}</1>",
+
+  "form.info.estSchedule": "Schedule end (est.)",
+  "form.info.slippage": "Slippage protection",
+
+  "form.frequency.min": "minutes",
+  "form.frequency.hour": "hours",
+  "form.frequency.day": "days",
+
+  "error.insufficientBalance": "Your trade is bigger than your balance.",
+  "error.minBudgetTooLow": "The minimum budget is {{amount}} {{asset}}.",
+  "error.frequencyOutOfRange": "The valid frequency is between {{min}} and {{max}} minutes.",
+
+  "settings.slippage": "Slippage",
+  "settings.slippageInfo1": "Tolerated price deviation from the last known price. Trade will be rescheduled if the price changes more than the specified percentage since previous block or 10 block average.",
+  "settings.maxRetries": "Max retries",
+  "settings.custom": "Period",
+
+  "orders.all": "All",
+  "orders.open": "Open orders",
+  "orders.history": "Order history",
+  "orders.noActivity": "No recent activity",
+
+  "notify.processing": "Spend <1>{{amountIn}} {{assetIn}}</1> every ~{{frequency}} to buy {{assetOut}} with a total budget of <1>{{amountInBudget}} {{assetIn}}</1> submitted",
+  "notify.success": "Spend <1>{{amountIn}} {{assetIn}}</1> every ~{{frequency}} to buy {{assetOut}} with a total budget of <1>{{amountInBudget}} {{assetIn}}</1> scheduled",
+  "notify.error": "Spend <1>{{amountIn}} {{assetIn}}</1> every ~{{frequency}} to buy {{assetOut}} with a total budget of <1>{{amountInBudget}} {{assetIn}}</1> failed"
+}

@@ -1,0 +1,58 @@
+{
+  "header.form": "Cross-chain",
+  "header.select": "Select asset",
+  "header.select.chainSrc": "Source chain",
+  "header.select.chainDst": "Destination chain",
+  "header.transfers": "Transfers",
+  "header.assetInfo": "{{name}} Asset data",
+
+  "form.cta.connect": "Connect wallet",
+  "form.cta.connecting": "Connecting...",
+  "form.cta.processing": "Processing...",
+  "form.cta.transfer": "Transfer",
+  "form.cta.approve": "Approve",
+  "form.cta.approving": "Approving...",
+
+  "form.section.chains": "Select chains",
+  "form.section.asset": "Select asset and amount",
+
+  "form.chainSrc.label": "Source chain",
+  "form.chainDst.label": "Destination chain",
+  "form.assetSrc.label": "Asset to transfer",
+  "form.assetDst.label": "Asset to receive",
+  "form.address.label": "Destination address",
+
+  "form.info.sourceFee": "Source chain fee:",
+  "form.info.destFee": "Destination chain fee:",
+  "form.info.relayerFee": "Relayer fee:",
+  "form.info.bridgeFee": "Bridge fee:",
+
+  "error.required": "This field is required.",
+  "error.notEvmAddr": "The address is incorrect. Please use valid ethereum address.",
+  "error.notNativeAddr": "The address is incorrect. Please use valid polkadot address.",
+  "error.notSolanaAddr": "The address is incorrect. Please use valid solana address.",
+  "error.notValidAddr": "The address is incorrect. Please review it and try again.",
+  "error.balance": "Your transfer is bigger than your balance.",
+  "error.maxAmount": "The maximum transferable amount is {{amount}} {{asset}}.",
+  "error.minAmount": "The minimum transferable amount is {{amount}} {{asset}}.",
+
+  "error.fee.insufficientBalance": "You need to have <1>{{amount}} {{symbol}}</1> on <1>{{chain}}</1> for fees",
+  "error.destFee.insufficientBalance": "You need to have at least <1>{{amount}} {{symbol}}</1> on <1>{{chain}}</1>",
+  "error.asset.frozen": "Your account on <1>{{chain}}</1> has frozen balance for <1>{{symbol}}</1>",
+  "error.account.insufficientDeposit": "You need to have <1>{{amount}} {{symbol}}</1> on <1>{{chain}}</1> for existential deposit",
+
+  "info.swap": "<1>{{fee}}</1> will be swapped for <1>{{amount}} {{symbol}}</1> to cover <1>{{chain}}</1> fees.",
+  "warning.cex": "Transferring assets to CEX through XCM directly will result in loss of funds. Please send them to your address on the relevant network first.",
+
+  "notify.processing": "Sending <1>{{amount}} {{asset}}</1> from <1>{{srcChain}}</1> to <1>{{destChain}}</1> submitted",
+  "notify.success": "Sent <1>{{amount}} {{asset}}</1> from <1>{{srcChain}}</1> to <1>{{destChain}}</1>",
+  "notify.error": "Sending <1>{{amount}} {{asset}}</1> from <1>{{srcChain}}</1> to <1>{{destChain}}</1> failed",
+
+  "approve.processing": "Approve <1>{{amount}} {{asset}}</1> spending cap submitted",
+  "approve.success": "Approved <1>{{amount}} {{asset}}</1> spending cap",
+  "approve.error": "Approval of <1>{{amount}} {{asset}}</1> spending cap failed",
+
+  "asset.info.checkData": "Check data",
+  "asset.external.badge.warning": "This asset is registered as an external token. Always conduct your own research before trading.",
+  "asset.external.badge.danger": "The creator of this asset has not revoked their admin rights. This means the supply can be minted, burned or frozen at any point. Proceed at your own risk."
+}

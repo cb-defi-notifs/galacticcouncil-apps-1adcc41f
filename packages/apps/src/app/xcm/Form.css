@@ -1,0 +1,87 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.transfer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 14px;
+  box-sizing: border-box;
+  row-gap: 10px;
+  position: relative;
+}
+
+.transfer .chain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.transfer .label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.switch {
+  display: block;
+  align-items: center;
+  display: flex;
+  height: 43px;
+  justify-content: center;
+  width: 100%;
+  margin: 6px auto;
+}
+
+.switch .divider {
+  background: var(--uigc-divider-background);
+  height: 1px;
+  width: 40%;
+  position: absolute;
+}
+
+.switch .divider.left {
+  left: 14px;
+}
+.switch .divider.right {
+  right: 14px;
+}
+
+.errors {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 480px) {
+  .transfer .chain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 11px;
+  }
+}
+
+@media (min-width: 768px) {
+  .transfer {
+    padding: 0 28px;
+  }
+
+  .switch .divider.left {
+    left: 28px;
+  }
+  .switch .divider.right {
+    right: 28px;
+  }
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
